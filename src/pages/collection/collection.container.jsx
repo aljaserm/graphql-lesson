@@ -27,7 +27,6 @@ const CollectionPageContainer = ({ match }) => (
   >
 
     {({ loading, data }) => {
-      console.log({data});
  
       return loading ? (
         <Spinner />
